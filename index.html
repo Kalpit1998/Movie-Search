@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search Engine</title>
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    <!-- <h2>Movie Search Engine</h2>
+
+    <input type="text" placeholder="Enter Movie Name" id="movie-name">
+
+    <button onclick="showMovie()">Submit</button> -->
+
+    <div id="header">
+        <div id="logo">
+            <h2>Movie Adda</h2>
+        </div>
+        <div id="login_btn">
+            <button id="signIn">Sign In</button>
+            <button id="signUp">Sign Up</button>
+        </div>
+    </div>
+
+    <div id="search">
+        <div id="heading">
+            <p>Search By Title</p>
+        </div>
+
+        <div id="hr"></div>
+
+        <div id="input-wrapper">
+            <p>Title: </p>
+
+            <input type="text" id="movie-title" placeholder="Enter Movie Title">
+
+            <p>Year: </p>
+
+            <input type="text" id="movie-year" placeholder="Year">
+
+            <button onclick="showMovie()">Search</button>
+
+            <button type="reset" onclick="resetInput()">Reset</button>
+        </div>
+    </div>
+
+    <div id="movie"></div>
+</body>
+<script src="./script/script.js"></script>
+</html>
